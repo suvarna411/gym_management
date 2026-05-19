@@ -48,3 +48,4 @@ class TestGymMembership(FrappeTestCase):
             membership.remaining_days,
             10
         )
+        

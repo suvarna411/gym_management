@@ -20,3 +20,4 @@ class GymLockerBooking(Document):
 
         if existing_booking:
             frappe.throw("Locker is already booked")
+            

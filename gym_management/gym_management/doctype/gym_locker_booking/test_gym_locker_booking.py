@@ -51,3 +51,4 @@ class TestGymLockerBooking(FrappeTestCase):
             frappe.ValidationError,
             booking2.insert
         )
+        
