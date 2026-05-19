@@ -253,7 +253,7 @@ doc_events = {
     }
 }
 scheduler_events = {
-    "yearly": [
+    "weekly": [
         "gym_management.tasks.send_weekly_class_summary"
     ]
 }
