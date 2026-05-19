@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2026-05-18 13:05:15.603855",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "locker_number",
+  "locker_size",
+  "availability"
+ ],
+ "fields": [
+  {
+   "fieldname": "locker_number",
+   "fieldtype": "Data",
+   "label": "Locker Number"
+  },
+  {
+   "fieldname": "locker_size",
+   "fieldtype": "Select",
+   "label": "Locker Size",
+   "options": "Small\nMedium\nLarge"
+  },
+  {
+   "fieldname": "availability",
+   "fieldtype": "Select",
+   "label": "Availability",
+   "options": "Available\nOccupied\nMaintenance"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-05-18 17:27:44.403965",
+ "modified_by": "Administrator",
+ "module": "Gym Management",
+ "name": "Gym Locker",
+ "naming_rule": "Autoincrement",
+ "owner": "suvarna.tadikamalla@promantia.com",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

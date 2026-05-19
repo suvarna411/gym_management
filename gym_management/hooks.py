@@ -247,3 +247,15 @@ app_license = "mit"
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
 
+doc_events = {
+    "Gym Class Booking": {
+        "before_insert": "gym_management.api.validate_class_capacity"
+    }
+}
+scheduler_events = {
+    "yearly": [
+        "gym_management.tasks.send_weekly_class_summary"
+    ]
+}
+
+website_catch_all = "404"
